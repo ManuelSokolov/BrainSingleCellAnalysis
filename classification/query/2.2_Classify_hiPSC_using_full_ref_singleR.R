@@ -2,13 +2,14 @@ library(scater)
 library(SingleR)
 library(readr)
 library(dplyr)
+library(Seurat)
 
 
 #setwd("../..")
 
 setwd("/Users/manuelsokolovr/Desktop/BrainSingleCellAnalysis")
 
-reference <- readRDS("data/hiPSC/rds/hiPSC_combined_ref.rds")
+reference <- readRDS("data/full_fetal_brain/rds/down_fullref.rds")
 
 # Verify the result
 unique(reference$CellClass)
@@ -17,14 +18,14 @@ names(assays(reference))=c("counts")
 
 reference <- logNormCounts(reference)
 
-query <- readRDS("data/hiPSC/rds/jovanovic_FCDI_Astro_unnormalized.rds")
+query <- readRDS("data/hiPSC/rds/jovanovic_FCDI.rds")
 names(assays(query))=c("counts")
 
 
-query1 <- readRDS("data/hiPSC/rds/jovanovic_Glu_Neurons_unnormalized.rds")
+query1 <- readRDS("data/hiPSC/rds/jovanovic_GLU.rds")
 names(assays(query1))=c("counts")
 
-query2 <- readRDS("data/hiPSC/rds/jovanovic_WA09_Astro_unnormalized.rds")
+query2 <- readRDS("data/hiPSC/rds/jovanovic_Astro.rds")
 names(assays(query2))=c("counts")
 
 
