@@ -21,6 +21,3 @@ You can find the code and detailed results in the provided scripts for both `scG
 - **R**:
   - `SingleR` (for cell-type annotation in R)
 
-Make sure all packages are installed and updated to the latest version to ensure compatibility with the datasets provided.
-
----
