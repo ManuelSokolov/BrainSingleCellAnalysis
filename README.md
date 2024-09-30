@@ -10,7 +10,7 @@ This repository contains data for annotating single-cell brain queries that were
 
 This repository includes a method benchmark comparing **scGPT** and **CellTypist** for the task of brain cell annotation under different drug treatments. The benchmark compares both tools in terms of cell-type prediction performance.
 
-You can find the code and detailed results in the provided scripts for both `scGPT` and `CellTypist`. Refer to the `scGPT_annotation.py` and `celltypist_annotation.py` files for more information.
+You can find the code and detailed results in the provided scripts for both `scGPT` and `CellTypist`. Refer to the `classification/method_benchmark` files for more information.
 
 ### Packages Used:
 - **Python**:
