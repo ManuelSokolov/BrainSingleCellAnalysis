@@ -1,4 +1,3 @@
- """
 ## Brain Single-Cell Drug Treatment Annotation Repository
 
 This repository contains data for annotating single-cell brain queries that were exposed to various drug treatments at **0H**, **24H**, and **72H** time points. The data is specifically designed for brain cells undergoing different drug treatments and aims to classify cell types accurately using modern computational tools.
