@@ -1,4 +1,4 @@
-## Brain Single-Cell Drug Treatment Annotation Repository
+## Brain Single-Cell Analysis Repository
 
 ### Method Benchmark: scGPT vs. CellTypist
 
